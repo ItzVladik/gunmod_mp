@@ -41,13 +41,8 @@
 			// pack up the custom content into a VPK.  To "install" a mod, just drop it in this
 			// folder.
 			//
-			// Note that this folder is scanned only when the game is booted.
-            
-			game+mod			hl2/custom/*
-			game+mod			episodic/custom/*
-			game+mod			ep2/custom/*
-			game+mod            |gameinfo_path|custom/*
-			game+mod			lostcoast/custom/*
+			// Note that this folder is scanned only when the game is booted
+			game+mod            		|gameinfo_path|custom/*
 
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
@@ -55,7 +50,7 @@
 			// system call.)
 
 			game_lv				hl2/hl2_lv.vpk
-			game+mod            gunmod
+			game+mod            		gunmod
 			game+mod			ep2/ep2_sound_vo_english.vpk
 			game+mod			ep2/ep2_pak.vpk
 			game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
@@ -66,10 +61,9 @@
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
-			platform			|all_source_engine_paths|platform/platform_misc.vpk
-
 			game+mod			lostcoast/lostcoast_sound_vo_english.vpk
 			game+mod			lostcoast/lostcoast_pak.vpk
+			platform			|all_source_engine_paths|platform/platform_misc.vpk
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
 			// that's used when writing to the "mod" path.
@@ -77,15 +71,14 @@
 
 			// Add the hl2mp directory as a game search path.  This is also where where writes
 			// to the "game" path go.
-			game+game_write		gunmod
+			game+game_write			gunmod
 
 			// Where the game's binaries are
 			gamebin				gunmod/bin
 
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2
-			game                |all_source_engine_paths|hl1
-			game                |all_source_engine_paths|gunmod
+			game                		|all_source_engine_paths|gunmod
 			platform			|all_source_engine_paths|platform
 
 			// Random files downloaded from gameservers go into a seperate directory, so
@@ -99,7 +92,7 @@
 			// packed up in the .bsp file so that it will be mounted as a map search pack.
 			// The map search pack is mounted at the top of the search path list,
 			// but only while you are connected that server and on that map.
-			game+download	gunmod/download
+			game+download			gunmod/download
 		}
 	}
 }
