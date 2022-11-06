@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitMaskedEnvMappedTexture
-	"$basetexture" "models/Odell/rightleg"
-	"$envmapmask" "models/Odell/rightlegmask"
-	"$envmap" "models/cremator/cremsuitenvmap"
-	//"$envmapsphere" 1
-}

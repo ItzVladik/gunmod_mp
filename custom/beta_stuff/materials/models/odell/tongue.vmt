@@ -1,6 +1,0 @@
-"Teeth"
-{
-	"$basetexture" "models/Odell/tongue"
-	"$model" 1
-	"$clientshader" "MouthShader"
-}

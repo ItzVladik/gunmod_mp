@@ -4,7 +4,7 @@ WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"PHYSGUN"
-	"viewmodel"				"models/weapons/v_physics_gun.mdl"
+	"viewmodel"				"models/weapons/v_superphyscannon.mdl"
 	"playermodel"			"models/weapons/w_Physics.mdl"
 	"anim_prefix"			"physgun"
 	"bucket"				"0"
@@ -31,21 +31,13 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/w_icons2b"
-				"x"			"128"
-				"y"			"192"
-				"width"		"128"
-				"height"	"64"
-
+				"font" 		"WeaponIcons"
+				"character"	"h"
 		}
 		"weapon_s"
-		{	
-				"file"		"sprites/w_icons2b"
-				"x"			"128"
-				"y"			"192"
-				"width"		"128"
-				"height"	"64"
-
+		{
+				"font" 		"WeaponIcons"
+				"character"	"h"
 		}
 		"ammo"
 		{

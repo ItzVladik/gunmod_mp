@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\wafsvixens\cabeza"
+	"$bumpmap" "models\wafsvixens\cabeza normal"
+	"$surfaceprop" "BloodyFlesh"
+}

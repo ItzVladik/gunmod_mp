@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\wafsvixens\cola"
+	"$surfaceprop" "BloodyFlesh"
+}

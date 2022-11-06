@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitMaskedEnvMappedTexture
-	"$basetexture" "models/Odell/Odell_version2"
-	"$bumpmap" "models/odessa/odessa_face_normal"
-}
