@@ -3,7 +3,7 @@
 	game	"GunMod"
 	title	"GUNMOD"
 	title2	""
-	type singeplayer
+	type multiplayer_only
 	nomodels 0
 	nohimodel 1
 	nocrosshair 0
@@ -49,20 +49,22 @@
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 
+			game+mod	        gunmod
+			game+mod			hl2mp/hl2mp_english.vpk
+			game+mod			hl2mp/hl2mp_pak.vpk
 			game_lv				hl2/hl2_lv.vpk
-			game+mod            		gunmod
-			game+mod			ep2/ep2_sound_vo_english.vpk
-			game+mod			ep2/ep2_pak.vpk
+			game				ep2/ep2_sound_vo_english.vpk
+			game				ep2/ep2_pak.vpk
 			game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
 			game				|all_source_engine_paths|episodic/ep1_pak.vpk
 			game				|all_source_engine_paths|hl1/hl1_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
-			game				|all_source_engine_paths|hl2/hl2_pak.vpk
+			game+mod			|all_source_engine_paths|hl2/hl2_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
-			game+mod			lostcoast/lostcoast_sound_vo_english.vpk
-			game+mod			lostcoast/lostcoast_pak.vpk
+			game				lostcoast/lostcoast_sound_vo_english.vpk
+			game				lostcoast/lostcoast_pak.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
@@ -75,10 +77,10 @@
 
 			// Where the game's binaries are
 			gamebin				gunmod/bin
-
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2
-			game                		|all_source_engine_paths|gunmod
+			game				|all_source_engine_paths|hl2mp
+			game                |all_source_engine_paths|gunmod
 			platform			|all_source_engine_paths|platform
 
 			// Random files downloaded from gameservers go into a seperate directory, so
