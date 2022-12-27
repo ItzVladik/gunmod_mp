@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "gm_construct/flatsign"
-	"$nocull" "1"
-	"$vertexcolor" "1"
-	"$alphatest" "1"
-	"$allowalphatocoverage" "1"
-}

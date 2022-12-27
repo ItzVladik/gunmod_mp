@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\weapons/glueblob"
-	"$envmap" "env_cubemap"
-}

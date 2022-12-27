@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/Weapons/v_fire_extinguisher/clamp"
-        "$bumpmap" "models/Weapons/v_fire_extinguisher/clamp_n"
-	"$phong" "1"
-	"$phongexponent" "30"
-	"$phongboost"	"4"
-	"$phongfresnelranges"	"[.3 1.0 2.9]"
-}

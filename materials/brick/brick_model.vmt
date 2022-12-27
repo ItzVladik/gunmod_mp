@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Brick/brickwall003a"
-	"$bumpmap" "brick/brickwall003a_normal"
-	"$model" 1
-}

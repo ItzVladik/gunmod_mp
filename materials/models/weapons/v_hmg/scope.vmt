@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitTexture
-	"$basetexture" "models/weapons/v_hmg/scope"
-	"$bumpmap" "models/weapons/v_hmg/scope_normal"
-}

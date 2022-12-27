@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-  $baseTexture  "models/kupo/chr/krystal/sfa/body"
-  //$bumpMap      "models/kupo/chr/krystal/sfa/body_n"
-  $model        1
-  $noCull       1
-  $halflambert  1
-}

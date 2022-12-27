@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitTexture
-	"$basetexture" "models/Weapons/v_binoculars/lense"
-        "$bumpmap" "models/weapons/v_binoculars/lense_n"
-        "$envmap" "env_cubemap"
-	"$normalmapalphaenvmapmask" 1
-}

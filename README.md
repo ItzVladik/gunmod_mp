@@ -4,6 +4,6 @@
 
 # You need Half-Life 2 Deathmatch and Half-Life 2
 
-**Maps used from Half-Life 2, Klaxons, Garry's Mod**
+**Clear Build**
 
 # Powered by ARGG
