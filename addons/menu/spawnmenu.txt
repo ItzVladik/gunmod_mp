@@ -6,21 +6,21 @@ SpawnMenu
 	"width"		"1250"
 	"height"	"880"
 
-	Tool Menu
+	"Tool Menu"
 	{
 		"Open ToolMenu"
 		{
 			"command" "sm_menu 1"
 		}
 	}
-	ExamplePage
+	"ExamplePage"
 	{
 		"ExampleButton"
 		{
 			"command" "ent_create npc_alyx"
 		}
 	}
-	Props
+	"Props"
 	{
 		"Wood Crate"
 		{
