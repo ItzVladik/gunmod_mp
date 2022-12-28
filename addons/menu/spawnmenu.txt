@@ -1,7 +1,4 @@
-"command" "npc_create npc_combine"
-
-
-SpawnMenu
+SMenu
 {
 	"width"		"1250"
 	"height"	"880"
