@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Half-Life 2 Deathmatch" }
+		{ "Gunmod" }
 	}
 
 	"sv_password"
@@ -101,7 +101,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Flashlight"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_forcerespawn"
