@@ -10,13 +10,6 @@ SMenu
 			"command" "sm_menu 1"
 		}
 	}
-	"ExamplePage"
-	{
-		"ExampleButton"
-		{
-			"command" "ent_create npc_alyx"
-		}
-	}
 	"Props"
 	{
 		"Wood Crate"
@@ -2928,35 +2921,35 @@ SMenu
 	{
 		"Kleiner"
 		{
-			"command"	"npc_create npc_kleiner"
+			"command"	"ent_create npc_kleiner"
 		}
 		"Gman"
 		{
-			"command"	"npc_create npc_gman"
+			"command"	"ent_create npc_gman"
 		}
 		"Breen"
 		{
-			"command"	"npc_create npc_breen"
+			"command"	"ent_create npc_breen"
 		}
 		"Barney"
 		{
-			"command"	"npc_create npc_barney"
+			"command"	"ent_create npc_barney"
 		}
 		"Eli"
 		{
-			"command"	"npc_create npc_eli"
+			"command"	"ent_create npc_eli"
 		}
 		"Grigori"
 		{
-			"command"	"npc_create npc_monk"
+			"command"	"ent_create npc_monk"
 		}
 		"Alyx"
 		{
-			"command"	"npc_create npc_alyx"
+			"command"	"ent_create npc_alyx"
 		}
 		"Mossman"
 		{
-			"command"	"npc_create npc_mossman"
+			"command"	"ent_create npc_mossman"
 		}
 		"Magnusson (EP2)"
 		{
@@ -2968,11 +2961,11 @@ SMenu
 		}
 		"DOG"
 		{
-			"command"	"npc_create npc_dog"
+			"command"	"ent_create npc_dog"
 		}
 		"Citizen"
 		{
-			"command"	"npc_create npc_citizen"
+			"command"	"ent_create npc_citizen"
 		}
 		"Refugee(Unarmed)"
 		{
@@ -2996,11 +2989,11 @@ SMenu
 		}
 		"Metropolice"
 		{
-			"command"	"npc_create npc_metropolice"
+			"command"	"ent_create npc_metropolice"
 		}
 		"Combine Soldier"
 		{
-			"command"	"npc_create npc_combine_s"
+			"command"	"ent_create npc_combine_s"
 		}
 		"Elite Soldier(AR2)"
 		{
@@ -3012,43 +3005,43 @@ SMenu
 		}
 		"Zombie"
 		{
-			"command"	"npc_create npc_zombie"
+			"command"	"ent_create npc_zombie"
 		}
 		"Fast Zombie"
 		{
-			"command"	"npc_create npc_fastzombie"
+			"command"	"ent_create npc_fastzombie"
 		}
 		"Poison Zombie"
 		{
-			"command"	"npc_create npc_poisonzombie"
+			"command"	"ent_create npc_poisonzombie"
 		}
 		"Zombie torso"
 		{
-			"command"	"npc_create npc_zombie_torso"
+			"command"	"ent_create npc_zombie_torso"
 		}
 		"Headcrab"
 		{
-			"command"	"npc_create npc_headcrab"
+			"command"	"ent_create npc_headcrab"
 		}
 		"Fast Headcrab"
 		{
-			"command"	"npc_create npc_headcrab_fast"
+			"command"	"ent_create npc_headcrab_fast"
 		}
 		"Poison Headcrab"
 		{
-			"command"	"npc_create npc_headcrab_poison"
+			"command"	"ent_create npc_headcrab_poison"
 		}
 		"Vortigaunt"
 		{
-			"command"	"npc_create npc_vortigaunt"
+			"command"	"ent_create npc_vortigaunt"
 		}
 		"Antlion"
 		{
-			"command"	"npc_create npc_antlion"
+			"command"	"ent_create npc_antlion"
 		}
 		"Antlion Guard"
 		{
-			"command"	"npc_create npc_antlionguard"
+			"command"	"ent_create npc_antlionguard"
 		}
 		"Antlion Guardian"
 		{
@@ -3056,23 +3049,23 @@ SMenu
 		}
 		"Manhack"
 		{
-			"command"	"npc_create npc_manhack"
+			"command"	"ent_create npc_manhack"
 		}
 		"City Scanner"
 		{
-			"command"	"npc_create npc_cscanner"
+			"command"	"ent_create npc_cscanner"
 		}
 		"Claw Scanner"
 		{
-			"command"	"npc_create npc_clawscanner"
+			"command"	"ent_create npc_clawscanner"
 		}
 		"Rollermine"
 		{
-			"command"	"npc_create npc_rollermine"
+			"command"	"ent_create npc_rollermine"
 		}
 		"Turret"
 		{
-			"command"	"npc_create npc_turret_floor"
+			"command"	"ent_create npc_turret_floor"
 		}
 		"Helicopter(CenterSpawn)"
 		{
@@ -3088,11 +3081,11 @@ SMenu
 		}
 		"Fisherman(Lost Coast)"
 		{
-			"command"	"npc_create npc_fisherman"
+			"command"	"ent_create npc_fisherman"
 		}
 		"Ichthyosaur"
 		{
-			"command"	"npc_create npc_ichthyosaur"
+			"command"	"ent_create npc_ichthyosaur"
 		}
 		"Barnacle"
 		{
@@ -3104,15 +3097,15 @@ SMenu
 		}
 		"Crow"
 		{
-			"command"	"npc_create npc_crow"
+			"command"	"ent_create npc_crow"
 		}
 		"Pigeon"
 		{
-			"command"	"npc_create npc_pigeon"
+			"command"	"ent_create npc_pigeon"
 		}
 		"Seagull"
 		{
-			"command"	"npc_create npc_seagull"
+			"command"	"ent_create npc_seagull"
 		}
 		"Hostage 1(CSS)"
 		{
@@ -3132,47 +3125,47 @@ SMenu
 		}
 		"NPC Weapon:None"
 		{
-			"command"	"npc_create_equipment weapon_none"
+			"command"	"ent_create_equipment weapon_none"
 		}
 		"NPC Weapon:Crowbar"
 		{
-			"command"	"npc_create_equipment weapon_crowbar"
+			"command"	"ent_create_equipment weapon_crowbar"
 		}
 		"NPC Weapon:Stunstick"
 		{
-			"command"	"npc_create_equipment weapon_stunstick"
+			"command"	"ent_create_equipment weapon_stunstick"
 		}
 		"NPC Weapon:Pistol"
 		{
-			"command"	"npc_create_equipment weapon_pistol"
+			"command"	"ent_create_equipment weapon_pistol"
 		}
 		"NPC Weapon:Smg1"
 		{
-			"command"	"npc_create_equipment weapon_smg1"
+			"command"	"ent_create_equipment weapon_smg1"
 		}
 		"NPC Weapon:Ar2"
 		{
-			"command"	"npc_create_equipment weapon_ar2"
+			"command"	"ent_create_equipment weapon_ar2"
 		}
 		"NPC Weapon:Shotgun"
 		{
-			"command"	"npc_create_equipment weapon_shotgun"
+			"command"	"ent_create_equipment weapon_shotgun"
 		}
 		"NPC Weapon:RPG"
 		{
-			"command"	"npc_create_equipment weapon_rpg"
+			"command"	"ent_create_equipment weapon_rpg"
 		}
 		"NPC Weapon:Annabelle"
 		{
-			"command"	"npc_create_equipment weapon_annabelle"
+			"command"	"ent_create_equipment weapon_annabelle"
 		}
 		"NPC Weapon:SuitCase"
 		{
-			"command"	"npc_create_equipment weapon_citizensuitcase"
+			"command"	"ent_create_equipment weapon_citizensuitcase"
 		}
 		"NPC Weapon:Package"
 		{
-			"command"	"npc_create_equipment weapon_citizenpackage"
+			"command"	"ent_create_equipment weapon_citizenpackage"
 		}
 	}
 	
