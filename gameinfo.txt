@@ -49,13 +49,20 @@
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 
-
-			game+mod 			gunmod
-
+			game 				gunmod_mp
+			
+			game				|all_source_engine_paths|portal_sound_vo_english.vpk
+			game				|all_source_engine_paths|portal_pak.vpk
+			game 				|all_source_engine_paths|ep2_sound_vo_english.vpk
+			game				|all_source_engine_paths|ep2_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
+			game				|all_source_engine_paths|episodic/ep1_pak.vpk
+			
+			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
 			game				hl2mp/hl2mp_english.vpk
 			game				hl2mp/hl2mp_pak.vpk
