@@ -54,7 +54,6 @@
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
-			game				|all_source_engine_paths|hl2/hl2_misc.vpk
 			game				|all_source_engine_paths|hl2mp_english.vpk
 			game				|all_source_engine_paths|hl2mp_pak.vpk
 			game				|all_source_engine_paths|ep1_sound_vo_english.vpk
