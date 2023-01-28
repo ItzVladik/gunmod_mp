@@ -1,9 +1,8 @@
 "GameInfo"
 {
-	game	"GunMod"
-	title	"Gunmod"
-	title2	"Multiplayer"
-	type multiplayer_only
+	game	"GunMod Multiplayer"
+	title	"Gunmod Multiplayer"
+	type 	multiplayer_only
 	nomodels 0
 	nohimodel 1
 	nocrosshair 1
@@ -42,25 +41,21 @@
 			// folder.
 			//
 			// Note that this folder is scanned only when the game is booted.
-			game+mod			gunmod/custom/*
+			game+mod			gunmod_mp/custom/*
 
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 
-			game+mod			gunmod_mp
-			game+mod			|all_source_engine_paths|hl2mp|hl2mp_english.vpk
-			game+mod			|all_source_engine_paths|hl2mp|hl2mp_pak.vpk
+			game+mod			|gameinfo_path|.
+			game				|all_source_engine_paths|hl2mp|hl2mp_english.vpk
+			game				|all_source_engine_paths|hl2mp|hl2mp_pak.vpk
 			
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
-			game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
-			game				|all_source_engine_paths|episodic/ep1_pak.vpk
-			game 				|all_source_engine_paths|ep2/ep2_sound_vo_english.vpk
-			game				|all_source_engine_paths|ep2/ep2_pak.vpk
 			game				|all_source_engine_paths|lostcoast/lostcoast_sound_vo_english.vpk
 			game				|all_source_engine_paths|lostcoast/lostcoast_pak.vpk
 			game				|all_source_engine_paths|portal/portal_sound_vo_english.vpk
@@ -73,6 +68,10 @@
 			game				|all_source_engine_paths|hl1_hd/hl1_hd_pak.vpk
 			game				|all_source_engine_paths|hl1/hl1_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl1/hl1_pak.vpk
+			game				|all_source_engine_paths|episodic/ep1_sound_vo_english.vpk
+			game				|all_source_engine_paths|episodic/ep1_pak.vpk
+			game 				|all_source_engine_paths|ep2/ep2_sound_vo_english.vpk
+			game				|all_source_engine_paths|ep2/ep2_pak.vpk
 
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
@@ -83,14 +82,20 @@
 
 			// Add the hl2mp directory as a game search path.  This is also where where writes
 			// to the "game" path go.
-			game+game_write		gunmod
+			game+game_write		gunmod_mp
 
 			// Where the game's binaries are
-			gamebin				gunmod/bin
+			gamebin				gunmod_mp/bin
 
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2
-			game				|all_source_engine_paths|hl2mp
+			game 				|all_source_engine_paths|episodic
+			game 				|all_source_engine_paths|ep2
+			game 				|all_source_engine_paths|hl2mp
+			game 				|all_source_engine_paths|hl1
+			game 				|all_source_engine_paths|dod
+			game 				|all_source_engine_paths|portal
+			game 				|all_source_engine_paths|cstrike
 			platform			|all_source_engine_paths|platform
 
 			// Random files downloaded from gameservers go into a seperate directory, so
